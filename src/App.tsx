@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header';
 import Footer from './components/Footer';
+import MovieList from './components/MovieList';
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <>
       <Header title="Mina filmer" />
       <main>
-      
+        <MovieList />
       </main>
       <Footer devName="Alexander Hilding" />
     </>

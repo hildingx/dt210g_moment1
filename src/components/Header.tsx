@@ -1,7 +1,7 @@
 function Header(props: {title: string}) {
     return (
         <header style={styles.header}>
-            <h1>{props.title}</h1>
+            <h1 style={styles.headerH1}>{props.title}</h1>
         </header>
     );
 };
@@ -20,6 +20,9 @@ const styles = {
         alignItems: 'flex-start',
         color: '#3d4962',
         paddingTop: '20px',
+    },
+    headerH1: {
+        fontWeight: '400',
     }
 };
 
