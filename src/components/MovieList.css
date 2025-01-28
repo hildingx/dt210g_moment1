@@ -14,7 +14,7 @@ li {
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #3d4962;
+    background-color: #516183;
 }
 
 section h2 {
@@ -30,4 +30,8 @@ section h3 {
 section h3, p {
     font-weight: 400;
     color: #fff;
+}
+
+section p {
+    padding-top: 5px;
 }

@@ -5,15 +5,18 @@ import MovieList from './components/MovieList';
 
 function App() {
 
-  return (
-    <>
-      <Header title="Mina filmer" />
-      <main>
-        <MovieList />
-      </main>
-      <Footer devName="Alexander Hilding" />
-    </>
-  )
+    return (
+        <>
+            {/* Header-komponent. Skickar med prop 'title' */}
+            <Header title="Mina filmer" />
+            <main>
+            {/* MovieList-komponent. Renderar en lista över filmer */}
+            <MovieList />
+            </main>
+            {/* Footer-komponent. Skickar med prop 'devName' */}
+            <Footer devName="Alexander Hilding" />
+        </>
+    )
 }
 
 export default App

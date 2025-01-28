@@ -1,3 +1,6 @@
+/* Header-komponent */
+
+// Skriver ut header med bakgrundsbild och titel. Tar emot prop 'title' från App
 function Header(props: {title: string}) {
     return (
         <header style={styles.header}>
@@ -6,6 +9,7 @@ function Header(props: {title: string}) {
     );
 };
 
+// Variabel med CSS-styles
 const styles = {
     header: {
         width: '100%',
