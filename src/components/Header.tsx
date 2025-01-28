@@ -18,7 +18,7 @@ const styles = {
         maxHeight: '300px',
         backgroundImage: 'url("/banner_mountain.jpg")',
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: 'center 30%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'flex-start',
